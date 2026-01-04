@@ -11,6 +11,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Form submission handling
 document.getElementById('contact-form').addEventListener('submit', function (e) {
   e.preventDefault();
-  alert('Welcome Nikhil');
+  alert('Welcome Nikhil to Poll SCM');
   this.reset();
 });
