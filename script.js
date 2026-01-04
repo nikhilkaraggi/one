@@ -11,6 +11,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Form submission handling
 document.getElementById('contact-form').addEventListener('submit', function (e) {
   e.preventDefault();
-  alert('Hi Nikhil! have a good day.');
+  alert('Hi Nikhil! have a good day thankyou.');
   this.reset();
 });
